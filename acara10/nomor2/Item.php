@@ -1,8 +1,8 @@
 <?php
 class Item{
-    private $ukuran;
-    private $nama;
-    private $warna;
+    protected $ukuran;
+    protected $nama;
+    protected $warna;
 
     /**
      * Setter

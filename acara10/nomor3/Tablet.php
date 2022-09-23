@@ -1,7 +1,6 @@
 <?php
-
 class Tablet {
-    private $merk, $camera, $memory;
+    protected $merk, $camera, $memory;
     /**
      * Setter
      * Isi semua variable
@@ -16,9 +15,9 @@ class Tablet {
         $this->camera = $camera;
     }
 
-    public function setMemori($memori)
+    public function setMemori($memory)
     {
-        $this->memori = $memori;
+        $this->memory = $memory;
     }
 
     /**
@@ -37,6 +36,6 @@ class Tablet {
 
     public function getMemori()
     {
-        return $this->memori;
+        return $this->memory;
     }
 }

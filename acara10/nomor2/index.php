@@ -6,7 +6,7 @@ $baju->setTipe("Kaos");
 $baju->setWarna("Merah");
 $baju->setUkuran("XL");
 
-echo$baju->getNama();
-echo$baju->getTipe();
-echo$baju->getWarna();
-echo$baju->getUkuran();
+echo$baju->getNama()."<br>";
+echo$baju->getTipe()."<br>";
+echo$baju->getWarna()."<br>";
+echo$baju->getUkuran()."<br>";
