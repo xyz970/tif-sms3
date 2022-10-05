@@ -1,7 +1,7 @@
 <?php
 function BilPrima($val){
     if ($val % 2 == 1 || $val == 2) {
-        echo "Bilangan Prima";
+        echo "Bilangan ".$val." adalah bilangan Prima";
     }
 }
 
@@ -28,4 +28,4 @@ function kelipatan($val){
     }
 }
 
-kelipatan(8);
+ BilPrima(3);
