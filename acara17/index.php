@@ -37,7 +37,7 @@
         <form action="logic.php" method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label>Foto :</label>
-                <input type="file" name="foto" required="required" multiple />
+                <input type="file" name="foto[]" required="required" multiple />
                 <p style="color: red">Ekstensi yang diperbolehkan .png | .jpg | .jpeg | .gif</p>
             </div>
             <button class="btn btn-primary" type="submit" name="submit">Simpan</button>
