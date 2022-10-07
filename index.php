@@ -1,7 +1,7 @@
 <?php
 
-/**
- * Soal 1.
+/** 
+ * Soal 1. Pppppp
  * Karena ada concatenation dengan simbol (.) menganggap string di tambah karakternya
  * ketika menggunakan operator pertambahan (+) maka nilai dari variabel tersebut yang ditambahkan
  * $a+$b = 100 
